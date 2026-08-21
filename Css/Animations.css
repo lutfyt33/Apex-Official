@@ -1,0 +1,63 @@
+/* animations.css */
+@keyframes shimmer {
+    0% {
+        background-position: -200% center;
+    }
+    100% {
+        background-position: 200% center;
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.03);
+    }
+}
+
+.loading-shimmer {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+.pulse-animation {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.fade-in {
+    animation: fadeUp 0.5s ease forwards;
+}
+
+.delay-1 {
+    animation-delay: 0.1s;
+}
+.delay-2 {
+    animation-delay: 0.2s;
+}
+.delay-3 {
+    animation-delay: 0.3s;
+}
+.delay-4 {
+    animation-delay: 0.4s;
+}
+.delay-5 {
+    animation-delay: 0.5s;
+}
