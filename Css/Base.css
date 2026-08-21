@@ -1,0 +1,40 @@
+/* base.css */
+:root {
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #0f0d17;
+    --bg-card: #191623;
+    --bg-input: #1e1b2b;
+    
+    --text-primary: #d6ccff;
+    --text-secondary: #b8b0d4;
+    --text-muted: #7b7199;
+    
+    --border-color: #2a233a;
+    --border-light: #3b334f;
+    
+    --gradient-main: linear-gradient(135deg, #b7a8ff, #7f6bff);
+    --gradient-hover: linear-gradient(135deg, #c4b6ff, #8f78f0);
+    
+    --shadow-glow: 0 0 35px rgba(77, 50, 179, 0.4);
+    --shadow-card: 0 20px 40px rgba(0, 0, 0, 0.8);
+    
+    --radius-lg: 2.5rem;
+    --radius-md: 1.5rem;
+    --radius-sm: 0.75rem;
+    --radius-full: 9999px;
+    
+    --transition-fast: 0.15s ease;
+    --transition-normal: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
+
+body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
