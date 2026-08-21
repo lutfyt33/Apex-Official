@@ -1,0 +1,62 @@
+/* theme.css */
+.profile-screen {
+    background: linear-gradient(165deg, #0f0d17, #12101e);
+}
+
+.loading-screen {
+    background: linear-gradient(165deg, #0a0a0f, #0f0d17);
+}
+
+.brand {
+    background: linear-gradient(135deg, #c4b6ff, #7f6bff, #a084ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.project-btn {
+    background: linear-gradient(145deg, #1a1625, #14111e);
+}
+
+.project-btn:hover {
+    background: linear-gradient(145deg, #25203a, #1a1625);
+}
+
+.avatar {
+    background: linear-gradient(145deg, #8f78f0, #6d4aff, #4d32b3);
+}
+
+.welcome-text {
+    color: #cbc0f0;
+}
+
+.loading-status {
+    color: #6a5f8a;
+}
+
+.footer-note {
+    color: #3d3555;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-light);
+    border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6d4aff;
+}
+
+::selection {
+    background: #6d4aff;
+    color: #fff;
+}
